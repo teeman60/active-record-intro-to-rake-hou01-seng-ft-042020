@@ -25,7 +25,7 @@ end
 namespace :db do
   desc 'run this first'
   task :environment do
-    require_relative './config/environment'
+    require_relative './config/environment.rb'
   end 
   
   desc 'migrate changes to your database'
